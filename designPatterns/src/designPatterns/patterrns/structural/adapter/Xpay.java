@@ -13,7 +13,7 @@ public interface Xpay {
 	public void setCustomerName(String customerName);
 	public void setCardExpMonth(String cardExpMonth);
 	public void setCardExpYear(String cardExpYear);
-	public void setCardCvv();
-	public void setAmount();
+	public void setCardCvv(Short cardCvv);
+	public void setAmount(Double amount);
 
 }

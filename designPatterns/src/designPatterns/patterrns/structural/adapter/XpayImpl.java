@@ -11,74 +11,75 @@ public class XpayImpl implements Xpay {
 
 	@Override
 	public String getCreditCardNo() {
-		
+
 		return creditCardNo;
 	}
 
 	@Override
 	public String getCustomerName() {
-		
+
 		return customerName;
 	}
 
 	@Override
 	public String getCardExpMonth() {
-		
+
 		return cardExpMonth;
 	}
 
 	@Override
 	public String getCardExpYear() {
-		
+
 		return cardExpYear;
 	}
 
 	@Override
-	public String getCardCvv() {
+	public Short getCardCvv() {
 		// TODO Auto-generated method stub
 		return cardCvv;
 	}
 
 	@Override
-	public String getAmount() {
+	public Double getAmount() {
 		// TODO Auto-generated method stub
-		return null;
+		return amount;
 	}
 
 	@Override
 	public void setCreditCardNo(String creditCardNo) {
 		// TODO Auto-generated method stub
+		this.creditCardNo = creditCardNo;
 
 	}
 
 	@Override
 	public void setCustomerName(String customerName) {
 		// TODO Auto-generated method stub
-
+		this.customerName = customerName;
 	}
 
 	@Override
 	public void setCardExpMonth(String cardExpMonth) {
 		// TODO Auto-generated method stub
-
+		this.cardExpMonth = cardExpMonth;
 	}
 
 	@Override
 	public void setCardExpYear(String cardExpYear) {
 		// TODO Auto-generated method stub
-
+		this.cardExpYear = cardExpYear;
 	}
 
 	@Override
-	public void setCardCvv() {
+	public void setCardCvv(Short cardCvv) {
 		// TODO Auto-generated method stub
-
+		this.cardCvv = cardCvv;
 	}
 
 	@Override
-	public void setAmount() {
+	public void setAmount(Double amount) {
 		// TODO Auto-generated method stub
-
+		this.amount = amount;
 	}
 
 }
